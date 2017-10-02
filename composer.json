@@ -1,0 +1,24 @@
+{
+  "name": "chrisharrison/timetastic-api-php",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChrisHarrison\\TimetasticAPI\\": "src/"
+    }
+  },
+  "config": {
+    "vendor-dir": "vendor",
+    "preferred-install": "dist"
+  },
+  "authors": [
+    {
+      "name": "Chris Harrison",
+      "email": "c.harrison1988@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
