@@ -11,7 +11,7 @@ class HttpClient implements HttpClientInterface
     private $token;
     private $guzzle;
 
-    public function __construct(string $token, ?string $baseUri = 'https://app.timetastic.co.uk:443', ?GuzzleClientInterface $guzzle)
+    public function __construct(string $token, ?string $baseUri = 'https://app.timetastic.co.uk:443', ?GuzzleClientInterface $guzzle = null)
     {
         $this->token = $token;
 
