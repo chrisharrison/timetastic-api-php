@@ -22,4 +22,9 @@ class Client
     {
         return $this->httpClient->get('/api/users', $parameters);
     }
+
+    public function getHolidays(array $parameters = []) : ResponseInterface
+    {
+        return $this->httpClient->get('api/holidays', $parameters);
+    }
 }
