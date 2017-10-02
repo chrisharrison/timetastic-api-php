@@ -40,7 +40,7 @@ class HttpClient implements HttpClientInterface
         $processedParameters = [];
 
         $processedParameters['headers'] = [
-            'Auth' => 'Bearer ' . $this->token
+            'Authorization' => 'Bearer ' . $this->token
         ];
 
         if ((string) $method === 'GET') {
