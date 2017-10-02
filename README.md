@@ -5,5 +5,5 @@ A PHP based Timetastic API client.
 ## Installation ##
 
 ```
-$ composer require nesbot/carbon
+$ composer require chrisharrison/timetastic-api-php
 ```
