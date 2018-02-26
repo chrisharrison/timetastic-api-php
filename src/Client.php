@@ -6,7 +6,7 @@ use Psr\Http\Message\ResponseInterface;
 
 class Client implements ClientInterface
 {
-    private const MILLISECONDS_BETWEEN_REQUESTS = 210;
+    private const MILLISECONDS_BETWEEN_REQUESTS = 300;
 
     private $httpClient;
     private $lastRequestTime;
