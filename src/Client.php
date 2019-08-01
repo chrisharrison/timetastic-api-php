@@ -74,7 +74,7 @@ class Client implements ClientInterface
     public function getPublicHolidays(array $parameters) : ResponseInterface
     {
         $this->rateLimit();
-        // TODO: Implement getPublicHolidays() method.
+        return $this->httpClient->get('/api/publicholidays', $parameters);
     }
 
     public function getUser(string $id) : ResponseInterface
